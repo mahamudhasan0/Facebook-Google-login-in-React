@@ -23,14 +23,14 @@ function Login() {
     <div>
         <div>
           <FacebookLogin
-              appId="1748105175357873"
+              appId="85523788"
               autoLoad={true}
               fields="name,email,picture"
               onClick={componentClicked}
               callback={responseFacebook} />
         </div>
         <GoogleLogin
-            clientId="306329157957-hgto6p4a07ue3gv74314s9tgao6i2jt5.apps.googleusercontent.com"
+            clientId="jfdsrhjj64hhfYghjg.apps.googleusercontent.com"
             buttonText="Login"
             onSuccess={responseGoogle}
             onFailure={responseGoogle}
